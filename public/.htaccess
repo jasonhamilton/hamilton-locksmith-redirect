@@ -1,0 +1,3 @@
+RewriteEngine on
+rewritecond %{http_host} ^hamiltons247locksmith.com [nc]
+rewriterule ^(.*)$ http://www.hamiltons247locksmith.com/$1 [r=301,nc]
